@@ -1,0 +1,124 @@
+ .home.page-template{ 
+    -webkit-font-smoothing: antianalised;
+    background-image: url(../img/patern1-background.png);
+    background-size: cover;
+} 
+footer{
+    position:static;
+    bottom: 0;
+    text-align: center;
+    color: azure;
+    font-size: 12px;
+}
+center {
+    margin-top: 800px;
+}
+.main-pag {
+    margin-top: 140px;
+    margin-left: 200px;
+    margin-right: 200px;
+    background: rgba(140, 140, 140, 0.7);
+    padding: 30px 30px;
+    border-radius: 5px;
+    font-family: 'Francois One', sans-serif;
+}
+h1 {
+    text-align: center;
+    font-size: 250%;
+    font-family: "Permanent Marker", sans-serif;
+}
+h2 {
+    font-size: 150%;
+}
+.nome {
+    margin-bottom: 20%
+}
+.emblema {
+    background-image: url(../img/vongola-logo.png);
+    background-size: contain;
+    background-repeat: no-repeat;
+    position: fixed;
+    display:block;
+    box-sizing:border-box;
+    top:9px;
+    left:20rem;
+    padding: 40px;
+    width: 40px;
+    height: 40px;   
+    -webkit-transition: 0.5s ease-in-out;
+    transition: 0.5s ease-in-out;
+}
+.emblema:hover {
+    background-image: url(../img/vongola-logo-hover.png);
+    background-repeat: no-repeat;
+    padding: 40px;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+}
+.emblema:active {
+    background-image: url(../img/vongola-logo-onclick.png);
+    background-repeat: no-repeat;
+    padding: 40px;
+    box-sizing: border-box;
+    width: 40px;
+    height: 40px;
+}
+.barra-nav {
+    background-color: rgba(240, 240, 240, 0.92);
+    height: 4rem;
+    width:100%;
+    position: fixed;
+    top: 0;
+    right:0;
+}
+.barra-nav li {
+    text-align: center;
+    float:left;
+    display: inline-block;
+}
+.bar {
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 30rem;
+}
+.link{  
+    padding: 0;
+    font-size: 1.5rem;
+    height: 4rem;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    width:55px;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}
+.link:hover { 
+    
+    color: gray;
+    font-family: 'Orbitron', sans-serif;
+    width:55px;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center; 
+    font-weight: bold;
+    border-bottom: solid black;
+    -webkit-transition: border 0.05s;
+    transition: border 0.05s;
+}
+.menu-trigger {
+    display:none;
+    text-decoration: none;
+    padding: 20px;
+    font-size: 20px;
+    color: black;
+    font-weight: bold;
+    box-sizing: border-box;
+    border: hidden;
+}
+.menu-trigger:active {
+    border: solid black;
+    transition: border 0.05s
+}

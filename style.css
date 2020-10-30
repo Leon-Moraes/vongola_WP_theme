@@ -1,0 +1,14 @@
+/**
+*Theme Name: Vongola theme
+*Autor: Leo, Aka Lycarium, Moraes
+*Description: theme designed for test and study of UX design in Wordpress Web *Applications.
+*Version: 0.1 BETA.
+*License: open license.
+*Text Domain: Vongola
+*This theme, like WordPress, is licensed under the GPL
+*Use it to study and learn, thnx guys <3.
+*/
+
+@import url("css/reset.css");
+@import url("css/Vongola.css");
+@import url("css/responsive.css");
