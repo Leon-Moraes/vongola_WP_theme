@@ -1,8 +1,9 @@
- .home.page-template{ 
+ body{ 
     -webkit-font-smoothing: antianalised;
     background-image: url(../img/patern1-background.png);
     background-size: cover;
-} 
+}
+
 footer{
     position:static;
     bottom: 0;

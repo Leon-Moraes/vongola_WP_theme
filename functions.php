@@ -16,7 +16,7 @@
         
     };
     add_action('wp_enqueue_scripts', 'vongola_enqueue_scripts');
-    add_action('wp_enqueue_style', 'vongola_enqueue_style');
+    add_action('wp_enqueue_scripts', 'vongola_enqueue_style');
 
     add_action( 'after_setup_theme', function() {
         add_theme_support('title-tag');

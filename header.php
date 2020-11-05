@@ -17,13 +17,18 @@
             <meta name="viewport" content="width=device-width, initial-scale=1.0">
             <meta http-equiv="X-UA-Compatible" content="ie=edge">
         </head>
-        <body <?php body_class(); ?>>
+        <body <?php body_class(); ?> class="main-body">
             <ul id="barra-nav" class="barra-nav">
                 <li><a class="emblema" url href="<?php echo $site_url; ?>" </a></li>  
                 <div class="bar">
                     <?php foreach($nav_locations_menu_items as $nav_item) : ?>
                     <li><a class="link" href="<?php echo $nav_item->url; ?>"><?php echo $nav_item->title; ?></a></li>
                     <?php endforeach ?>
+                    
+                    <div class="login">
+                        <p><!--Nome de Usuario entrará aqui--></p>
+                       <!--Aqui entrará foto do usuario <a class="photo-user" href=""></a> -->
+                    </div>
                 </div>    
                 <li class="icon">
                         <a href="javascript:void(0);" class="menu-trigger" onclick="menuFunction()">☰</a>
