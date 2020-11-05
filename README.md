@@ -1,2 +1,2 @@
-# vongola_WP_theme
+# Vongola Wordpress Theme
 tema para wordpress
