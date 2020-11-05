@@ -1,2 +1,4 @@
 # Vongola Wordpress Theme
-tema para wordpress
+Tema V0.1.3 beta
+
+===============================================================
