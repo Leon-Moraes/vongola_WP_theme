@@ -8,7 +8,7 @@
 ?>
 <!DOCTYPE html>
         <footer>
-            &copy; Vongola Company 2016          
+                 
         </footer>
     </body>
 <?php wp_footer(); ?>
