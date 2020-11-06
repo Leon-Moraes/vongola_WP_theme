@@ -1,10 +1,10 @@
 # Vongola Wordpress Theme
-title: Vongola Theme
-description: Wordpress Theme
-Version: 0.1.3 beta
-author: Leonardo de Moraes Magalhães
-tags: Theme, Wordpress, Responsive
-created:  2020 Set 20
+###title: Vongola Theme  
+description: Wordpress Theme  
+Version: 0.1.3 beta  
+author: Leonardo de Moraes Magalhães  
+tags: Theme, Wordpress, Responsive  
+created:  2020 Set 20  
 
 ===============================================================
 
