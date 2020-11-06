@@ -25,12 +25,22 @@
                     <li><a class="link" href="<?php echo $nav_item->url; ?>"><?php echo $nav_item->title; ?></a></li>
                     <?php endforeach ?>
                     
-                    <div class="login">
+                    
+                    <div class="user">
                         <p><!--Nome de Usuario entrará aqui--></p>
-                       <!--Aqui entrará foto do usuario <a class="photo-user" href=""></a> -->
+                        <a href="javascript:void(0);" class="photo-user" ><img src="<??>"></a> 
+                        <div class="login">
+                            <form action="login-forms/sigin.php" method="post" >
+                                <input type="text" name="user" placeholder="Username">
+                                <input type="text" name="pass" placeholder="Senha">
+                                <button type="submit" name="login-submit">Login</button>
+                                <button type="submit" name="signin-submit">Sign in</button>
+                            </form>
+                        </div>
+
                     </div>
                 </div>    
                 <li class="icon">
-                        <a href="javascript:void(0);" class="menu-trigger" onclick="menuFunction()">☰</a>
+                        <a href="javascript:void(0);" class="menu-trigger" >☰</a>
                 </li>
             </ul>
