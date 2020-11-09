@@ -124,4 +124,25 @@ h2 {
     border: solid black;
     transition: border 0.05s
 }
-
+.user {
+    float: right;
+}
+.login-tab {
+    display: none;
+    position: relative;
+    width: 20rem;
+    height: 20rem;
+    
+}
+.login {
+    font-size: 1.5rem;
+    height: 4rem;
+    text-align: center;
+    font-family: 'Orbitron', sans-serif;
+    font-weight: bold;
+    width:55px;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    color: black;
+}

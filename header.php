@@ -28,13 +28,14 @@
                     
                     <div class="user">
                         <p><!--Nome de Usuario entrará aqui--></p>
-                        <a href="javascript:void(0);" class="photo-user" ><img src="<??>"></a> 
-                        <div class="login">
+                        <a class="login" href="javascript:void(0);">Entrar</a>
+                        <div class="login-tab">
                             <form action="login-forms/sigin.php" method="post" >
-                                <input type="text" name="user" placeholder="Username">
-                                <input type="text" name="pass" placeholder="Senha">
-                                <button type="submit" name="login-submit">Login</button>
-                                <button type="submit" name="signin-submit">Sign in</button>
+                                <a class="photo-user" ><img src="<??>"></a> 
+                                <li><input type="text" name="user email" placeholder="Username"></li>
+                                <li><input type="text" name="pass" placeholder="Senha"></li>
+                                <li><button type="submit" name="login-submit">Login</button></li>
+                                <li><button type="submit" name="signin-submit">Sign in</button></li>
                             </form>
                         </div>
 

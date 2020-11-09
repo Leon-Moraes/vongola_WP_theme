@@ -4,7 +4,7 @@ jQuery(document).ready(function () {
     });
 });
 jQuery(document).ready(function() {
-   jQuery(".photo-user").click(function(){
-        jQuery(".login").slideDown();
+   jQuery(".login").click(function(){
+        jQuery(".login-tab").slideToggle();
   });
 });

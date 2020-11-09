@@ -6,8 +6,6 @@
         $username = $_POST['user'];
         $email = $_POST['email'];
         $password = $_POST['pass'];
-        $passRepeat = $_POST['pass-repeat'];
-        
-        
-                
-    }      
+        $passRepeat = $_POST['pass-repeat'];        
+    } 
+?>
