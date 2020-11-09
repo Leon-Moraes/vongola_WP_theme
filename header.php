@@ -32,10 +32,10 @@
                         <div class="login-tab">
                             <form action="login-forms/sigin.php" method="post" >
                                 <a class="photo-user" ><img src="<??>"></a> 
-                                <li><input type="text" name="user email" placeholder="Username"></li>
-                                <li><input type="text" name="pass" placeholder="Senha"></li>
-                                <li><button type="submit" name="login-submit">Login</button></li>
-                                <li><button type="submit" name="signin-submit">Sign in</button></li>
+                                <li class="login-forms"><input class="forms" type="text" name="user email" placeholder="Username"></li>
+                                <li class="login-forms"><input class="forms" type="text" name="pass" placeholder="Senha"></li>
+                                <li class="login-button"><button class="button" type="submit" name="login-submit">Login</button></li>
+                                <li class="sigin-button"><button class="button" type="submit" name="signin-submit">Sign in</button></li>
                             </form>
                         </div>
 
