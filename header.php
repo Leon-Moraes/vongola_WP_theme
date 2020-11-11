@@ -36,6 +36,10 @@
                                 <li class="login-forms"><input class="forms" type="text" name="pass" placeholder="Senha"></li>
                                 <li class="login-button"><button class="button" type="submit" name="login-submit">Login</button></li>
                                 <li class="sigin-button"><button class="button" type="submit" name="signin-submit">Sign in</button></li>
+                                <li class="login-forms">
+                                    <input id="checkbox "class="keep-connection" type="checkbox">
+                                    <label class="keep-connection" for="checkbox">Manter-se conectado ?</label>
+                                </li>
                             </form>
                         </div>
 

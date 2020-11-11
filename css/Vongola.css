@@ -15,9 +15,9 @@ center {
     margin-top: 800px;
 }
 .main-pag {
-    margin-top: 140px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-top: 10%;
+    margin-left: 10%;
+    margin-right: 10%;
     background: rgba(140, 140, 140, 0.7);
     padding: 30px 30px;
     border-radius: 5px;
@@ -42,7 +42,7 @@ h2 {
     display:block;
     box-sizing:border-box;
     top:9px;
-    left:20rem;
+    left:20%;
     padding: 40px;
     width: 40px;
     height: 40px;   
@@ -82,7 +82,7 @@ h2 {
     display: block;
     padding: 20px;
     box-sizing: border-box;
-    margin-left: 30rem;
+    margin-left: 30%;
 }
 .link{  
     padding: 0;
@@ -128,7 +128,7 @@ h2 {
     float: right;
 }
 .login-tab {
-    background-color: rgba(240, 240, 240, 0.92);
+    background-color: rgb(245, 245, 245);
     display: none;
     padding: 1rem;
     position: absolute;
@@ -136,7 +136,9 @@ h2 {
     height: 20rem;
     top: 4rem;
     right: 0;
-    border-top: groove;
+    border-style: solid;
+    border-color: gray;
+    border-width: thin;
     box-shadow: 2px 1px 35px 7px rgba(158,158,158,0.5);
     border-radius: 5px;
    
@@ -156,7 +158,7 @@ h2 {
 .login:hover {
     color: gray;
     font-family: 'Orbitron', sans-serif;
-    width:55px;
+    width:60px;
     text-decoration: none;
     padding: 10px;
     text-align: center; 
@@ -166,9 +168,16 @@ h2 {
     transition: border 0.05s;
     
 }
+.login:focus{
+    color: white;
+    border-bottom-color: white;
+}
 .photo-user {
     width: 90px;
     height: 90px;
+    margin-left: 35%;
+    margin-bottom: 10%;
+    border-radius: 50px;
     
 }
 .login-forms {
@@ -181,13 +190,12 @@ h2 {
     border-radius: 4px;
     border: solid;
     margin-left: 30px;
+    background-color: rgb(227, 227, 227);
     border-color: rgba(204, 204, 204, 0.1);
     text-indent: 2rem;
 }
 .button {
-
-	box-shadow: 2px 2px 0px 0px #d6d6d6;
-	background-color:transparent;
+	background-color:rgb(227, 227, 227);
 	border-radius:28px;
 	border:1px solid #d6bcd6;
 	display:inline-block;
@@ -199,6 +207,7 @@ h2 {
 	padding:7px 32px;
 	text-decoration:none;
 	text-shadow:0px 1px 0px #d4d4d4;
+    margin-top: 10%
 }
 .button:hover {
     transition: border 0.1s;
@@ -209,5 +218,10 @@ h2 {
 	top:1px;
 }
 .login-tab li input {
+    float: left;
+}
+.keep-connection{
+    margin-left: 10%;
+    margin-top: 5%;
     float: left;
 }
