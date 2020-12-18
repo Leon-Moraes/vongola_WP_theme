@@ -1,5 +1,5 @@
 # Vongola Wordpress Theme
-###title: Vongola Theme  
+### title: Vongola Theme  
 description: Wordpress Theme  
 Version: 0.1.3 beta  
 author: Leonardo de Moraes Magalhães  
